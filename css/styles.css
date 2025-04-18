@@ -47,3 +47,8 @@ section.alt{background:#f1f1f1;padding:1.2rem 1.5rem;border-radius:.5rem}
   .nav{gap:.5rem;font-size:.9rem}
   .logo a{font-size:1.25rem}
 }
+@media (max-width:480px){
+  .nav{flex-direction:column;display:none}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
